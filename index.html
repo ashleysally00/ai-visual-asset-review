@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Visual Asset Review – Portfolio</title>
+  <style>
+    :root{
+      --bg:#fff;
+      --text:#111;
+      --muted:#555;
+      --line:#ddd;
+      --shadow:0 1px 2px rgba(0,0,0,.06), 0 4px 12px rgba(0,0,0,.06);
+      --radius:14px;
+      --accent:#2563eb;
+      --maxwidth:900px;
+    }
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      color:var(--text);
+      background:var(--bg);
+      line-height:1.5;
+    }
+    .container{
+      max-width:var(--maxwidth);
+      margin:0 auto;
+      padding:24px 16px 64px;
+    }
+    header{
+      text-align:left;
+      margin-bottom:18px;
+    }
+    h1{
+      font-size:28px;
+      margin:0 0 4px;
+      font-weight:600;
+    }
+    .intro{
+      color:var(--muted);
+      font-size:15px;
+      margin:0 0 10px;
+    }
+    .pill{
+      display:inline-block;
+      font-size:13px;
+      padding:6px 10px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:#fafafa;
+      color:#111;
+      margin-right:8px;
+      margin-top:8px;
+    }
+    .project{
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      margin-top:24px;
+      background:#fff;
+      overflow:hidden;
+    }
+    .project-header{
+      padding:14px 18px 6px;
+      border-bottom:1px solid var(--line);
+      background:#fafafa;
+    }
+    .project-header h2{
+      margin:0;
+      font-size:18px;
+    }
+    .project-header .role{
+      font-size:14px;
+      color:var(--muted);
+      margin:2px 0 0;
+    }
+    .body{
+      padding:16px 18px 18px;
+    }
+    ul{margin:8px 0 12px 18px; padding:0;}
+    li{margin-bottom:4px;}
+    .images{
+      display:grid;
+      gap:14px;
+      margin-top:14px;
+    }
+    @media (min-width: 720px){
+      .images.two{
+        grid-template-columns:1fr 1fr;
+      }
+    }
+    figure{margin:0;}
+    img{
+      width:100%;
+      height:auto;
+      border-radius:12px;
+      border:1px solid var(--line);
+      background:#fff;
+    }
+    figcaption{
+      font-size:12px;
+      margin-top:6px;
+      color:var(--muted);
+    }
+    .actions{
+      margin-top:12px;
+    }
+    a{
+      text-decoration:none;
+      color:var(--accent);
+      font-size:14px;
+    }
+    a:hover{text-decoration:underline;}
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>AI Visual Asset Review – Portfolio</h1>
+    <p class="intro">
+      Samples of AI-generated visual asset evaluation and 2D illustration creation,
+      demonstrating visual consistency, style accuracy, background composition,
+      and identity preservation checks across generative outputs.
+    </p>
+
+    <span class="pill"><strong>Role:</strong> AI Visual Asset Reviewer &amp; 2D Graphic Asset Creator</span>
+    <span class="pill"><strong>Tools:</strong> Midjourney, DALL·E 3</span>
+  </header>
+
+  <!-- Victorian Women Writers -->
+  <section class="project">
+    <div class="project-header">
+      <h2>Victorian Women Writers – Coloring Book</h2>
+      <p class="role">AI Visual Asset Reviewer &amp; 2D Graphic Asset Creator</p>
+    </div>
+    <div class="body">
+      <ul>
+        <li>Reviewed AI-generated images for visual consistency &amp; style accuracy</li>
+        <li>Evaluated line quality for print/coloring suitability</li>
+        <li>Assessed background composition and subject separation</li>
+        <li>Defined acceptable stylization criteria vs major quality deviations</li>
+        <li>Curated final assets for publication</li>
+      </ul>
+
+      <div class="images two">
+        <figure>
+          <img src="images/Victorian_Writers_Cover_AR.jpg" alt="Victorian Women Writers cover">
+          <figcaption>Cover asset (AI-generated, reviewed)</figcaption>
+        </figure>
+        <figure>
+          <img src="images/JaneEyre.jpg" alt="Jane Eyre interior">
+          <figcaption>Interior sample (reviewed line art)</figcaption>
+        </figure>
+      </div>
+
+      <div class="actions">
+        <a href="https://www.amazon.com/Victorian-Women-Writers-Coloring-book/dp/B0CRRMBMS5" target="_blank" rel="noopener">
+          View on Amazon
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mean Princess -->
+  <section class="project">
+    <div class="project-header">
+      <h2>Color Your Way Through The Mean Princess – Interior Sample</h2>
+      <p class="role">AI Visual Asset Reviewer &amp; 2D Graphic Asset Creator</p>
+    </div>
+    <div class="body">
+      <ul>
+        <li>Reviewed AI-generated images for style adherence</li>
+        <li>Evaluated identity preservation (pose, proportions, facial features)</li>
+        <li>Checked line clarity and composition for print/coloring use</li>
+        <li>Curated consistent publish-ready assets via iteration and review</li>
+      </ul>
+
+      <div class="images">
+        <figure>
+          <img src="images/DragonEscaping.jpg" alt="Mean Princess interior">
+          <figcaption>Interior sample (AI-generated, reviewed)</figcaption>
+        </figure>
+      </div>
+
+      <div class="actions">
+        <a href="https://www.amazon.com/Color-Your-Through-Mean-Princess/dp/B0CRBD6RFL" target="_blank" rel="noopener">
+          View on Amazon
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Unicorn Dreams -->
+  <section class="project">
+    <div class="project-header">
+      <h2>Unicorn Dreams – Coloring Book</h2>
+      <p class="role">AI Visual Asset Reviewer &amp; 2D Graphic Asset Creator</p>
+    </div>
+    <div class="body">
+      <ul>
+        <li>Reviewed line art for consistent strokes and clean regions</li>
+        <li>Assessed background structure &amp; readability</li>
+        <li>Evaluated subject separation to avoid clutter</li>
+        <li>Selected final assets based on systematic criteria</li>
+      </ul>
+
+      <div class="images two">
+        <figure>
+          <img src="images/Unicorn_Cover_AR.jpg" alt="Unicorn Dreams cover">
+          <figcaption>Cover asset (AI-generated, reviewed)</figcaption>
+        </figure>
+        <figure>
+          <img src="images/UnicornFairy.jpg" alt="Unicorn Dreams interior">
+          <figcaption>Interior sample (AI-generated, reviewed)</figcaption>
+        </figure>
+      </div>
+
+      <div class="actions">
+        <!-- Replace with your real Unicorn Dreams Amazon link -->
+        <a href="#" target="_blank" rel="noopener">
+          View on Amazon (add link)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dogs A–Z -->
+  <section class="project">
+    <div class="project-header">
+      <h2>Color Your Way Through Dogs A–Z</h2>
+      <p class="role">AI Visual Asset Reviewer &amp; 2D Graphic Asset Creator</p>
+    </div>
+    <div class="body">
+      <ul>
+        <li>Reviewed character illustrations for identity preservation</li>
+        <li>Evaluated backgrounds for structure and visual clarity</li>
+        <li>Flagged and removed outputs with anatomy or composition issues</li>
+        <li>Curated assets that met defined acceptance criteria</li>
+      </ul>
+
+      <div class="images two">
+        <figure>
+          <img src="images/DogsAZ_Front_Cover_AR_Resize.jpg" alt="Dogs A–Z cover">
+          <figcaption>Cover asset (AI-generated, reviewed)</figcaption>
+        </figure>
+        <figure>
+          <img src="images/AlyssaLhasa.jpg" alt="Dogs A–Z interior">
+          <figcaption>Interior sample (AI-generated, reviewed)</figcaption>
+        </figure>
+      </div>
+
+      <div class="actions">
+        <a href="https://www.amazon.com/Color-Your-Way-Through-Dogs/dp/B0CP5J6QHH" target="_blank" rel="noopener">
+          View on Amazon
+        </a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
